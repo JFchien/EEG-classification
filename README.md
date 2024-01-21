@@ -1,7 +1,9 @@
 Decoding Upper Limb movements from the EEG Signals
+
 Jo-fan Chien*, Dawei Li*, Haoyin Xu*, and Qin Li*
 
-Introduction\n
+Introduction
+
 To better improve the life quality of the disabled population, modern prostheses with various mechanisms
 are developed for those with limb trauma and dysfunctions. As researchers point out, an appropriate prosthesis
 with supporting community service could greatly improve one's ability to produce income and participate
@@ -17,14 +19,13 @@ can predict the upper limb motion based on EEG signals. This project may help us
 associations between neural activities and the control of limb movements. Besides, this exploratory work
 would promote the design of next-generation prothesis and benet the people with the needs.
 
-Method\n
-2.1 Data and Preprocessing\n
+Method
+
+2.1 Data and Preprocessing
+
 The original data were obtained from the public access folder from the Muller-Putz Group[4]. The
 dataset includes experimental runs obtained from 15 healthy subjects. In each trial, subjects are instructed
-to perform different upper limb movements. There are 6 movements in total: elbow 
-exion, elbow extension,
-supination, pronation, hand close, and hand open. Lastly, there were also some resting trials to serve as the
-control. The sampling rate was 512Hz and each trial is approximately 7 seconds.
+to perform different upper limb movements. There are 6 movements in total: elbow exion, elbow extension,supination, pronation, hand close, and hand open. Lastly, there were also some resting trials to serve as the control. The sampling rate was 512Hz and each trial is approximately 7 seconds.
 A 1Hz high-pass lter and a 60Hz notch lter were applied to remove the baseline drift and the ground
 noise. The cleanline() method from EEGLAB toolbox was also applied to remove any linear noise [5]. Bad
 channels/data were removed and interpolated through the artifact subspace reconstruction (ASR) method.
