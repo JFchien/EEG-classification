@@ -11,8 +11,8 @@ former prioritized the external appearance and the comfort of the tool, while th
 functional support with mechanical feedback [2]. However, the precision of these hybrid prostheses remained
 to be poor and the user usually takes a signicantly longer time to be adapted to them [3]. Hence, to provide
 a better design of the active prosthesis, we proposed that EEG signal could be a great source of predicting
-one's intended movement. We aim to predict dierent types of upper limb movements based on the EEG
-signal. We hypothesize that dierent upper limb movements would produce dierent EEG signals and we
+one's intended movement. We aim to predict different types of upper limb movements based on the EEG
+signal. We hypothesize that didifferent upper limb movements would produce dierent EEG signals and we
 can predict the upper limb motion based on EEG signals. This project may help us better understand the
 associations between neural activities and the control of limb movements. Besides, this exploratory work
 would promote the design of next-generation prothesis and benet the people with the needs.
