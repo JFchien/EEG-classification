@@ -1,9 +1,7 @@
-Decoding Upper Limb movements from the EEG Signals
-
+Decoding Upper Limb movements from the EEG Signals<br>
 Jo-fan Chien*, Dawei Li*, Haoyin Xu*, and Qin Li*
 
-Introduction
-
+Introduction<br>
 To better improve the life quality of the disabled population, modern prostheses with various mechanisms
 are developed for those with limb trauma and dysfunctions. As researchers point out, an appropriate prosthesis
 with supporting community service could greatly improve one's ability to produce income and participate
@@ -19,10 +17,8 @@ can predict the upper limb motion based on EEG signals. This project may help us
 associations between neural activities and the control of limb movements. Besides, this exploratory work
 would promote the design of next-generation prothesis and benet the people with the needs.
 
-Method
-
-2.1 Data and Preprocessing
-
+Method<br>
+2.1 Data and Preprocessing<br>
 The original data were obtained from the public access folder from the Muller-Putz Group[4]. The
 dataset includes experimental runs obtained from 15 healthy subjects. In each trial, subjects are instructed
 to perform different upper limb movements. There are 6 movements in total: elbow exion, elbow extension,supination, pronation, hand close, and hand open. Lastly, there were also some resting trials to serve as the control. The sampling rate was 512Hz and each trial is approximately 7 seconds.
@@ -44,22 +40,23 @@ variance. The features extracted by PCA were compared to the original features i
 In this study, Subject One with a total of 256 trials was analyzed. Due to the incompletion of data and
 changes in event marker naming styles, we had difficulties interpreting the data from other subjects and
 would not involve them in this study.
-2.2 Model Training and Algorithms
+
+2.2 Model Training and Algorithms<br>
 In this project, we majorly used two types of models, namely the support vector machine and the
 convolutional neural network to t the EEG signals with the upper limb motion.
 
-References
+References<br>
 [1] P. Gallagher and D. Desmond, Measuring quality of life in prosthetic practice," Prosthetics
-& Orthotics International, vol. 31, no. 2, pp. 167
+& Orthotics International, vol. 31, no. 2, pp. 167<br>
 [2] R. Brack and E. H. Amalu, A review of technology, materials and r&d challenges of upper limb
-prosthesis for improved user suitability," Journal of Orthopaedics, vol. 23, pp. 88
+prosthesis for improved user suitability," Journal of Orthopaedics, vol. 23, pp. 88<br>
 [3] L. A. Wheaton, Neurorehabilitation in upper limb amputation: understanding how neurophysiological
 changes can aect functional rehabilitation," Journal of NeuroEngineering and Rehabilitation, vol. 14,
-no. 1, May 2017.
+no. 1, May 2017.<br>
 [4] P. Ofner, A. Schwarz, J. Pereira, and G. R. Muller-Putz, \Upper limb movements can be decoded from
-the time-domain of low-frequency EEG," PLOS ONE, vol. 12, no. 8, p. e0182578, Aug. 2017. 
+the time-domain of low-frequency EEG," PLOS ONE, vol. 12, no. 8, p. e0182578, Aug. 2017. <br>
 [5] A. Delorme and S. Makeig, EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics
 including independent component analysis," Journal of Neuroscience Methods, vol. 134, no. 1, pp. 9
-[6] V. J. Lawhern, A. J. Solon, N. R. Waytowich, S. M. Gordon, C. P. Hung, and B. J. Lance, \Eegnet:
+[6] V. J. Lawhern, A. J. Solon, N. R. Waytowich, S. M. Gordon, C. P. Hung, and B. J. Lance, Eegnet:
 a compact convolutional neural network for eeg-based brain{computer interfaces," Journal of neural
-engineering, vol. 15, no. 5, p. 056013, 2018.
+engineering, vol. 15, no. 5, p. 056013, 2018.<br>
