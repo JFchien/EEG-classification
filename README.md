@@ -1,7 +1,7 @@
 Decoding Upper Limb movements from the EEG Signals
 Jo-fan Chien*, Dawei Li*, Haoyin Xu*, and Qin Li*
 
-Introduction
+Introduction\n
 To better improve the life quality of the disabled population, modern prostheses with various mechanisms
 are developed for those with limb trauma and dysfunctions. As researchers point out, an appropriate prosthesis
 with supporting community service could greatly improve one's ability to produce income and participate
@@ -17,8 +17,8 @@ can predict the upper limb motion based on EEG signals. This project may help us
 associations between neural activities and the control of limb movements. Besides, this exploratory work
 would promote the design of next-generation prothesis and benet the people with the needs.
 
-Method
-2.1 Data and Preprocessing
+Method\n
+2.1 Data and Preprocessing\n
 The original data were obtained from the public access folder from the Muller-Putz Group[4]. The
 dataset includes experimental runs obtained from 15 healthy subjects. In each trial, subjects are instructed
 to perform different upper limb movements. There are 6 movements in total: elbow 
@@ -41,7 +41,7 @@ As a prevalent method for dimensionality reduction, Principal Component Analysis
 the 305 frequency features onto the space formed by the principal components, which preserves the largest
 variance. The features extracted by PCA were compared to the original features in predicting the labels.
 In this study, Subject One with a total of 256 trials was analyzed. Due to the incompletion of data and
-changes in event marker naming styles, we had diculties interpreting the data from other subjects and
+changes in event marker naming styles, we had difficulties interpreting the data from other subjects and
 would not involve them in this study.
 2.2 Model Training and Algorithms
 In this project, we majorly used two types of models, namely the support vector machine and the
