@@ -38,7 +38,7 @@ As a prevalent method for dimensionality reduction, Principal Component Analysis
 the 305 frequency features onto the space formed by the principal components, which preserves the largest
 variance. The features extracted by PCA were compared to the original features in predicting the labels.
 In this study, Subject One with a total of 256 trials was analyzed. Due to the incompletion of data and
-changes in event marker naming styles, we had difficulties interpreting the data from other subjects and
+changes in event marker naming styles, we had difficulties interpreting the data from other subjects and
 would not involve them in this study.
 
 2.2 Model Training and Algorithms<br>
@@ -51,9 +51,9 @@ References<br>
 [2] R. Brack and E. H. Amalu, A review of technology, materials and r&d challenges of upper limb
 prosthesis for improved user suitability," Journal of Orthopaedics, vol. 23, pp. 88<br>
 [3] L. A. Wheaton, Neurorehabilitation in upper limb amputation: understanding how neurophysiological
-changes can aect functional rehabilitation," Journal of NeuroEngineering and Rehabilitation, vol. 14,
+changes can affect functional rehabilitation," Journal of NeuroEngineering and Rehabilitation, vol. 14,
 no. 1, May 2017.<br>
-[4] P. Ofner, A. Schwarz, J. Pereira, and G. R. Muller-Putz, \Upper limb movements can be decoded from
+[4] P. Ofner, A. Schwarz, J. Pereira, and G. R. Muller-Putz, Upper limb movements can be decoded from
 the time-domain of low-frequency EEG," PLOS ONE, vol. 12, no. 8, p. e0182578, Aug. 2017. <br>
 [5] A. Delorme and S. Makeig, EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics
 including independent component analysis," Journal of Neuroscience Methods, vol. 134, no. 1, pp. 9
