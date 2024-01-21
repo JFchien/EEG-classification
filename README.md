@@ -12,16 +12,16 @@ functional support with mechanical feedback [2]. However, the precision of these
 to be poor and the user usually takes a signicantly longer time to be adapted to them [3]. Hence, to provide
 a better design of the active prosthesis, we proposed that EEG signal could be a great source of predicting
 one's intended movement. We aim to predict different types of upper limb movements based on the EEG
-signal. We hypothesize that didifferent upper limb movements would produce dierent EEG signals and we
+signal. We hypothesize that different upper limb movements would produce different EEG signals and we
 can predict the upper limb motion based on EEG signals. This project may help us better understand the
 associations between neural activities and the control of limb movements. Besides, this exploratory work
 would promote the design of next-generation prothesis and benet the people with the needs.
 
 Method
 2.1 Data and Preprocessing
-The original data were obtained from the public access folder from the Muller-Putz Group[4]. The
+The original data were obtained from the public access folder from the Muller-Putz Group[4]. The
 dataset includes experimental runs obtained from 15 healthy subjects. In each trial, subjects are instructed
-to perform dierent upper limb movements. There are 6 movements in total: elbow 
+to perform different upper limb movements. There are 6 movements in total: elbow 
 exion, elbow extension,
 supination, pronation, hand close, and hand open. Lastly, there were also some resting trials to serve as the
 control. The sampling rate was 512Hz and each trial is approximately 7 seconds.
