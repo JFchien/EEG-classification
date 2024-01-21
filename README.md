@@ -48,21 +48,17 @@ In this project, we majorly used two types of models, namely the support vector 
 convolutional neural network to t the EEG signals with the upper limb motion.
 
 References
-[1] P. Gallagher and D. Desmond, \Measuring quality of life in prosthetic practice," Prosthetics
-& Orthotics International, vol. 31, no. 2, pp. 167{176, Jun. 2007. [Online]. Available:
-https://doi.org/10.1080/03093640600988633
-[2] R. Brack and E. H. Amalu, \A review of technology, materials and r&d challenges of upper limb
-prosthesis for improved user suitability," Journal of Orthopaedics, vol. 23, pp. 88{96, 2021. [Online].
-Available: https://www.sciencedirect.com/science/article/pii/S0972978X20303615
-[3] L. A. Wheaton, \Neurorehabilitation in upper limb amputation: understanding how neurophysiological
+[1] P. Gallagher and D. Desmond, Measuring quality of life in prosthetic practice," Prosthetics
+& Orthotics International, vol. 31, no. 2, pp. 167
+[2] R. Brack and E. H. Amalu, A review of technology, materials and r&d challenges of upper limb
+prosthesis for improved user suitability," Journal of Orthopaedics, vol. 23, pp. 88
+[3] L. A. Wheaton, Neurorehabilitation in upper limb amputation: understanding how neurophysiological
 changes can aect functional rehabilitation," Journal of NeuroEngineering and Rehabilitation, vol. 14,
-no. 1, May 2017. [Online]. Available: https://doi.org/10.1186/s12984-017-0256-8
+no. 1, May 2017.
 [4] P. Ofner, A. Schwarz, J. Pereira, and G. R. Muller-Putz, \Upper limb movements can be decoded from
-the time-domain of low-frequency EEG," PLOS ONE, vol. 12, no. 8, p. e0182578, Aug. 2017. [Online].
-Available: https://doi.org/10.1371/journal.pone.0182578
-[5] A. Delorme and S. Makeig, \EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics
-including independent component analysis," Journal of Neuroscience Methods, vol. 134, no. 1, pp. 9{21,
-Mar. 2004. [Online]. Available: https://doi.org/10.1016/j.jneumeth.2003.10.009
+the time-domain of low-frequency EEG," PLOS ONE, vol. 12, no. 8, p. e0182578, Aug. 2017. 
+[5] A. Delorme and S. Makeig, EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics
+including independent component analysis," Journal of Neuroscience Methods, vol. 134, no. 1, pp. 9
 [6] V. J. Lawhern, A. J. Solon, N. R. Waytowich, S. M. Gordon, C. P. Hung, and B. J. Lance, \Eegnet:
 a compact convolutional neural network for eeg-based brain{computer interfaces," Journal of neural
 engineering, vol. 15, no. 5, p. 056013, 2018.
